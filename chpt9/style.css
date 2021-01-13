@@ -1,0 +1,200 @@
+/* Style Tags*/
+
+*{
+  margin-top: 5px;
+}
+
+h1{
+  font-family: harrington, fantasy;
+  font-size: 70px;
+  margin-top: 10px;
+  margin-right: 30px;
+  clear:none;
+  float: center;
+  text-align: center;
+  margin-bottom: -100px;
+  color: #2d2838;
+}
+
+.icon {
+ width: 190px;
+ float: left;
+ clear: none;
+ margin-top: -15px;
+}
+
+.pt1{
+  margin-top: 0px;
+  width: auto;
+  height: 300px;
+  float: left;
+  margin-right: 1020px;
+  border: 10px double #2d2838;
+  margin-left: -100px;
+
+}
+
+.pt2{
+  margin-top: 0px;
+  width: 500px;
+  height: 600px;
+  float: right;
+  margin-left: 20px;
+  border: 10px double #2d2838;
+}
+
+#grad {
+  height: 450px;
+  background-color: #ffdae9;
+  margin-top: 100px;
+}
+
+#grad1 {
+  height: 400px;
+  background-color: #daf6ff;
+  margin-top: 120px;
+}
+
+.left{
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  font-family: "Palatino Linotype", Serif;
+  font-size: 20px;
+  color: #2d2838;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.center{
+  float: center;
+  width: 50%;
+  text-align: center;
+  font-family: "Palatino Linotype", Serif;
+  font-size: 20px;
+  color: #2d2838;
+}
+
+.right{
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+  font-family: "Palatino Linotype", Serif;
+  font-size: 20px;
+  color: #2d2838;
+
+}
+
+/*Media Size Changing Here */
+
+@media only screen and (max-width:1322px){
+  .pt1{
+    margin-top: 0px;
+    width: auto;
+    height: 290px;
+    float: right;
+    margin-right: 20px;
+    border: 10px double #4b474e;
+  }
+
+ .pt2{
+  margin-top: 0px;
+  width: auto;
+  height: 210px;
+  float: left;
+  margin-left: 20px;
+  border: 10px double #4b474e;
+ }
+}
+
+@media only screen and (max-width:1133px){
+  .pt1{
+    margin-top: 0px;
+    width: auto;
+    height: 225px;
+    float: right;
+    margin-right: 20px;
+    border: 10px double #4b474e;
+  }
+
+  #grad1 {
+    height: 350px;
+    background-color: #bbd3fa;
+    margin-top: 20px;
+
+  .icon{
+     width: 190px;
+     float: left;
+     clear: none;
+     margin-top: -15px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+
+  h1{
+    font-family: harrington, fantasy;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-right: 30px;
+    clear:none;
+    float: left;
+  }
+
+ .icon {
+   width: 90px;
+   float: left;
+   clear: none;
+   margin-top: 3px;
+ }
+
+  #grad {
+    height: 350px;
+    background-color: #e0c2fb;
+    margin-top: 25px;
+  }
+
+  .right{
+    float: right;
+    width: 60%;
+    padding-right: 20px;
+    font-family: "Palatino Linotype", Serif;
+    font-size: 15px;
+    color: #4b474e;
+  }
+
+  .pt2{
+    float: left;
+    margin-left: 20px;
+    height:130px;
+  }
+
+  .left{
+        float: left;
+        width: 60%;
+        padding-left: 20px;
+        font-family: "Palatino Linotype", Serif;
+        font-size: 15px;
+        color: #4b474e;
+      }
+
+}
+
+@media only screen and (max-width:550px) {
+
+   h1{
+    font-family: harrington, fantasy;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+    clear:none;
+    float: left;
+   }
+
+   img {
+   width: 70px;
+   float: left;
+   clear: none;
+   }
+
+}
